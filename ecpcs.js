@@ -1,4 +1,4 @@
-
+document.adEventListener("DOMContentLoaded", function() {
 var containerclass = document.querySelector(".srg-slider-container");
 window.w = parseFloat(window.getComputedStyle(containerclass,null).getPropertyValue('width'));
 
@@ -314,3 +314,4 @@ function slideRight(){
 		init:init
 	}
 }())
+});
