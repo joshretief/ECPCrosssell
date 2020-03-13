@@ -140,8 +140,7 @@
 	opacity: 1;
 }
 .masterdiv{
-  max-width: 1100px;
-  min-width: 300px;
+  width: 100%;
   margin: auto;
   display: block;
  }
@@ -779,9 +778,7 @@ float: left;
     display: none;
     opacity: 1;
   }
-  .masterdiv {
-  max-width: 1100px;
-  }
+
 }
 .crosssell {
   display: none;
