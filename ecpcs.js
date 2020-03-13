@@ -1,8 +1,13 @@
-$(document).ready(function() {
-  var SrgSlider = SrgSlider || (function() {
-  
+
+
+
+  $(document).ready(function() {
+    
   var containerclass = document.querySelector(".srg-slider-container");
   window.w = parseFloat(window.getComputedStyle(containerclass, null).getPropertyValue('width'));
+  
+  var SrgSlider = SrgSlider || (function() {
+
 
     let LastWindowWidth = window.w;
     const MaxColumnsCount = 6; //max number of items allowed on a slide 
