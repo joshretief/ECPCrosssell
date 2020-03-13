@@ -1,7 +1,4 @@
-
-
-
-  $(document).ready(function() {
+$(document).ready(function() {
   var SrgSlider = SrgSlider || (function() {
   
   var containerclass = document.querySelector(".srg-slider-container");
