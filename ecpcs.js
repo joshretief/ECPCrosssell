@@ -1,11 +1,10 @@
 
 
 
-
-    
+   document.addEventListener("DOMContentLoaded", function(event) {  
   var containerclass = document.querySelector(".srg-slider-container");
   window.w = parseFloat(window.getComputedStyle(containerclass).getPropertyValue('width'));
-    $(document).ready(function() {
+
   
   var SrgSlider = SrgSlider || (function() {
 
@@ -333,4 +332,5 @@
       init: init
     }
   }())
+
 });
