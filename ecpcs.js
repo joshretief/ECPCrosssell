@@ -1,4 +1,4 @@
-document.adEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
 var containerclass = document.querySelector(".srg-slider-container");
 window.w = parseFloat(window.getComputedStyle(containerclass,null).getPropertyValue('width'));
 
